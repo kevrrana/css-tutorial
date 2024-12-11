@@ -1,0 +1,34 @@
+*{
+    margin: 0;/* tüm etiketlerin cssleri 0 oldu */
+}
+
+.icerik{
+    margin: auto; /*boşlukları otomatik verir. genelikle width ile kullanılır ve kuttunun ekranını ortasında gelmesi sağlanır*/
+    width: 400px;
+    color: #dfe4ea;
+    background-color: #57606f;
+    text-align: center;
+}
+
+.kita_tek{
+    color: #ff3838;
+    background-color: #ffcccc;
+}
+.kita_cift{
+    color: #ffcccc;
+    background-color: #ff3838 ;
+}
+
+/*ikisi ortak olduğu için grup seçici kullanacağız*/
+
+.kita_tek, .kita_cift{
+ border: #333 solid 5px; 
+ padding: 10px;/*iç boşluk*/ 
+ margin: 10px;/*dış boşluk*/ 
+}
+
+/*id -> #ile gösterilir*/
+#baslik{
+    background-color: #192a56 ;
+    padding: 10px;
+}
